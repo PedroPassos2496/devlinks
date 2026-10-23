@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevLinks | Pedro Passos</title>
+  <meta name="description" content="Meus links como desenvolvedor: GitHub, LinkedIn, portfólio e mais." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="glow" aria-hidden="true"></div>
+
+  <main class="card">
+    <div class="topbar">
+      <button id="theme-toggle" class="icon-btn" aria-label="Alternar tema">🌙</button>
+      <button id="share-btn" class="icon-btn" aria-label="Copiar link da página">🔗</button>
+    </div>
+
+    <img class="avatar" src="https://github.com/PedroPassos2496.png" alt="Foto de perfil" />
+    <h1>Pedro Passos</h1>
+    <p class="bio">Aluno da instituição de ensino Cesupa - Centro Universitário do Estado do Pará. 🚀</p>
+
+    <ul class="stack" aria-label="Tecnologias">
+      <li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li>
+    </ul>
+
+    <nav class="links" aria-label="Meus links">
+      <a href="https://github.com/PedroPassos2496" target="_blank" rel="noopener">
+        <span class="ico">🐙</span><span>GitHub</span><span class="arrow">→</span>
+      </a>
+      <a href="https://www.linkedin.com/in/pedro-passos-a82525446/?isSelfProfile=true" target="_blank" rel="noopener">
+        <span class="ico">💼</span><span>LinkedIn</span><span class="arrow">→</span>
+      </a>
+      <a href="https://app.rocketseat.com.br/me/pedro-26070067-02605" target="_blank" rel="noopener">
+        <span class="ico">🚀</span><span>Rocketseat</span><span class="arrow">→</span>
+      </a>
+      
+      <a href="mailto:pedropferreira79@gmail.com">
+        <span class="ico">✉️</span><span>E-mail</span><span class="arrow">→</span>
+      </a>
+    </nav>
+
+    
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite">Link copiado!</div>
+  <script src="script.js"></script>
+</body>
+</html>
